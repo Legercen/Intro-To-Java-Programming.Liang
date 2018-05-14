@@ -1,0 +1,24 @@
+
+public class Ch1_Ex1_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int yearinsec = 31556952;
+		int birthsperyear = 4508136;
+		int deathsperyear = 2427458;
+		int immigrantsperyear = 701266;
+		int pop = 312032486;
+		int pop1= pop+birthsperyear-deathsperyear+immigrantsperyear;
+		int pop2= pop1+birthsperyear-deathsperyear+immigrantsperyear;
+		int pop3= pop2+birthsperyear-deathsperyear+immigrantsperyear;
+		int pop4= pop3+birthsperyear-deathsperyear+immigrantsperyear;
+		int pop5= pop4+birthsperyear-deathsperyear+immigrantsperyear;
+		System.out.println("The Initial Population" + pop);
+		System.out.println("The population of year 1 is :"+ pop1);
+		System.out.println("The population of year 2 is :"+ pop2);
+		System.out.println("The population of year 3 is :"+ pop3);
+		System.out.println("The population of year 4 is :"+ pop4);
+		System.out.println("The population of year 5 is :"+ pop5);
+	}
+
+}
