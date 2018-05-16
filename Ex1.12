@@ -1,0 +1,10 @@
+public class Ch1_Ex1_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double mph = 14.3;
+		double kilo = mph*1.6;
+		System.out.println("The runner ran at : "+ kilo +" Kmh");
+	}
+
+}
